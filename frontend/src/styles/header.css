@@ -115,3 +115,45 @@
 .mobile__menu {
   display: none;
 }
+
+.menu{
+  display: flex;
+  align-items: center;
+  column-gap: 2.7rem;
+}
+
+.nav__item{
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav__item:hover{
+  color: #f9a826;
+}
+
+.search__box{
+  padding: 7px 12px;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  border: #7c8a972f;
+  background-color: #7c8a972f;
+  border-radius: 50px;
+}
+
+.search__box input{
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search__box input::placeholder{
+  font-size: 0.8rem;
+}
+
+.nav__active{
+  color: #f9a826;
+}

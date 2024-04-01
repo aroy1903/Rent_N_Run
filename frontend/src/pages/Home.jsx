@@ -1,9 +1,15 @@
 
+import HeroSlider from "../components/UI/HeroSlider.jsx"
+import Helmet from "../components/Helmet/Helmet.jsx"
+
+
 const Home = () => {
   return (
-    <div>
-      home
-    </div>
+    <Helmet title = 'Home'>
+      <section className="p-0 hero__slider-section">
+        <HeroSlider/>
+      </section>
+    </Helmet>
   )
 }
 

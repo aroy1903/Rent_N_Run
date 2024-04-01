@@ -88,8 +88,9 @@ const Header = () => {
         </div>
       </Col>
 
-      <Col lg={2} md={3} sm={0}>
-        <button className="header__btn btn d-flex align-items-center justify-content-end text-end">
+      <Col lg="2" md="3" sm="0" className="d-flex align-items-center 
+                            justify-content-end text-end">
+        <button className="header__btn">
           <Link to='/contact'>
             <i className="ri-phone-line"></i> Request a call
           </Link>
@@ -113,7 +114,9 @@ const Header = () => {
             <div className="menu">
               {
                 navLinks.map((item,index)=>(
-                  <NavLink to ={item.path}key={index}>{item.display}</NavLink>
+                  <NavLink to ={item.path} className={navClass=> navClass.isActive ?
+                  'nav__active nav__item' : 'nav__item'} key={index}>
+                    {item.display}</NavLink>
                 ))
               }
             </div>
