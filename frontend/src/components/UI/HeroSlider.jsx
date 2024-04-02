@@ -15,9 +15,10 @@ const HeroSlider = () => {
         speed: 2000,
         autoplaySpeed: 3000,
         infinite: true,
+        autoplay: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-
+        pauseOnHover: false,
     }
   
     return (
@@ -25,8 +26,8 @@ const HeroSlider = () => {
         <div className="slider__item slider__item-01 mt0">
             <Container>
                 <div className="slider__content">
-                    <h6 className="text-light mb-3">For Rent $100 Per Day </h6>
-                        <h1 className='text-light mb-4'> Reserve Now</h1>
+                    <h4 className="text-light mb-3">For Rent $100 Per Day </h4>
+                        <h1 className='text-light mb-4'>Book Now and Get 30% Off</h1>
                         <button className="btn reserve__btn mt-4">
                             <Link to ='/cars'>Reserve Now</Link>
                         </button>
@@ -35,11 +36,11 @@ const HeroSlider = () => {
             </Container>
         </div>
 
-        <div className="slider__item slider__item-01 mt0">
+        <div className="slider__item slider__item-02 mt0">
             <Container>
                 <div className="slider__content">
-                    <h6 className="text-light mb-3">For Rent $100 Per Day </h6>
-                        <h1 className='text-light mb-4'> Reserve Now</h1>
+                    <h4 className="text-light mb-3">For Rent $100 Per Day </h4>
+                        <h1 className='text-light mb-4'> Book Now and Get 30% Off</h1>
                         <button className="btn reserve__btn mt-4">
                             <Link to ='/cars'>Reserve Now</Link>
                         </button>
@@ -48,11 +49,11 @@ const HeroSlider = () => {
             </Container>
         </div>
 
-        <div className="slider__item slider__item-01 mt0">
+        <div className="slider__item slider__item-03 mt0">
             <Container>
                 <div className="slider__content">
-                    <h6 className="text-light mb-3">For Rent $100 Per Day </h6>
-                        <h1 className='text-light mb-4'> Reserve Now</h1>
+                    <h4 className="text-light mb-3">For Rent $100 Per Day </h4>
+                        <h1 className='text-light mb-4'>Book Now and Get 30% Off</h1>
                         <button className="btn reserve__btn mt-4">
                             <Link to ='/cars'>Reserve Now</Link>
                         </button>
