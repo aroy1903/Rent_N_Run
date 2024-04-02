@@ -1,16 +1,18 @@
 // import all images from assets/images directory
-import img01 from "../all-images/cars-img/car.png";
-import img02 from "../all-images/cars-img/van.png";
-import img03 from "../all-images/cars-img/truck.png";
-import img04 from "../all-images/cars-img/sports-car.png";
-import img05 from "../all-images/cars-img/electric-car.png";
+import img01 from "../all-images/cars-img/nissan-offer.png";
+import img02 from "../all-images/cars-img/offer-toyota.png";
+import img03 from "../all-images/cars-img/bmw-offer.png";
+import img04 from "../all-images/cars-img/nissan-offer.png";
+import img05 from "../all-images/cars-img/offer-toyota.png";
+import img06 from "../all-images/cars-img/mercedes-offer.png";
+
 
 const carData = [
   {
     id: 1,
-    brand: "Toyota",
+    brand: "Tesla",
     rating: 112,
-    carName: "Toyota Sedan",
+    carName: "Tesla Malibu",
     imgUrl: img01,
     model: "Model 3",
     price: 50,
@@ -19,14 +21,14 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
 
   {
     id: 2,
-    brand: "Ford",
+    brand: "Toyota",
     rating: 102,
-    carName: "Ford Van",
+    carName: "Toyota Aventador",
     imgUrl: img02,
     model: "Model-2022",
     price: 50,
@@ -35,14 +37,14 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
 
   {
     id: 3,
-    brand: "Chevrolet",
+    brand: "BMW",
     rating: 132,
-    carName: "Chevrolet Truck",
+    carName: "BMW X3",
     imgUrl: img03,
     model: "Model-2022",
     price: 65,
@@ -51,14 +53,14 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
 
   {
     id: 4,
-    brand: "Ferrari",
+    brand: "Nissan",
     rating: 102,
-    carName: "Ferrari Sports Car",
+    carName: "Nissan Mercielago",
     imgUrl: img04,
     model: "Model-2022",
     price: 70,
@@ -67,14 +69,14 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
 
   {
     id: 5,
-    brand: "Tesla",
+    brand: "Ferrari",
     rating: 94,
-    carName: "Tesla Electric Car",
+    carName: "Ferrari Camry",
     imgUrl: img05,
     model: "Model-2022",
     price: 45,
@@ -83,8 +85,25 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
+
+  {
+    id: 6,
+    brand: "Mercedes",
+    rating: 119,
+    carName: "Mercedes Benz XC90",
+    imgUrl: img06,
+    model: "Model-2022",
+    price: 85,
+    speed: "20kmpl",
+    gps: "GPS Navigation",
+    seatType: "Heated seats",
+    automatic: "Automatic",
+    description:
+      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+  },
+
 ];
 
 export default carData;

@@ -1,9 +1,8 @@
+import AboutSection from "../components/UI/AboutSection"
 
 const About = () => {
   return (
-    <div>
-      
-    </div>
+    <AboutSection/>
   )
 }
 
