@@ -1,10 +1,6 @@
 
 const CarDetails = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+  return 
 }
 
 export default CarDetails

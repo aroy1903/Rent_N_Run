@@ -1,0 +1,17 @@
+.about__section-item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 1rem;
+    column-gap: 3rem;
+}
+
+.section__description {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.about__section-item p i{
+    color: #f9a826;
+    font-size: 1.1rem;
+}
