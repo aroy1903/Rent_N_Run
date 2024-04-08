@@ -3,7 +3,7 @@ import img01 from "../all-images/cars-img/nissan-offer.png";
 import img02 from "../all-images/cars-img/offer-toyota.png";
 import img03 from "../all-images/cars-img/bmw-offer.png";
 import img04 from "../all-images/cars-img/nissan-offer.png";
-import img05 from "../all-images/cars-img/offer-toyota.png";
+import img05 from "../all-images/cars-img/toyota-offer-2.png";
 import img06 from "../all-images/cars-img/mercedes-offer.png";
 
 
@@ -12,7 +12,7 @@ const carData = [
     id: 1,
     brand: "Tesla",
     rating: 112,
-    carName: "Tesla Malibu",
+    carName: "Tesla S",
     imgUrl: img01,
     model: "Model 3",
     price: 50,
@@ -21,7 +21,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " Our Compact Sedan is a versatile and reliable choice for your everyday driving needs. With its fuel-efficient engine and comfortable interior, this sedan is perfect for city driving or longer road trips. It offers a smooth and easy driving experience, making it ideal for individuals or small families looking for a practical and affordable transportation solution.",
   },
 
   {
@@ -37,7 +37,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " Our Compact Sedan is a versatile and reliable choice for your everyday driving needs. With its fuel-efficient engine and comfortable interior, this sedan is perfect for city driving or longer road trips. It offers a smooth and easy driving experience, making it ideal for individuals or small families looking for a practical and affordable transportation solution.",
   },
 
   {
@@ -53,14 +53,14 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " Our Compact Sedan is a versatile and reliable choice for your everyday driving needs. With its fuel-efficient engine and comfortable interior, this sedan is perfect for city driving or longer road trips. It offers a smooth and easy driving experience, making it ideal for individuals or small families looking for a practical and affordable transportation solution.",
   },
 
   {
     id: 4,
     brand: "Nissan",
     rating: 102,
-    carName: "Nissan Mercielago",
+    carName: "Nissan Sentra",
     imgUrl: img04,
     model: "Model-2022",
     price: 70,
@@ -69,14 +69,14 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " Our Compact Sedan is a versatile and reliable choice for your everyday driving needs. With its fuel-efficient engine and comfortable interior, this sedan is perfect for city driving or longer road trips. It offers a smooth and easy driving experience, making it ideal for individuals or small families looking for a practical and affordable transportation solution.",
   },
 
   {
     id: 5,
-    brand: "Ferrari",
+    brand: "Toyota",
     rating: 94,
-    carName: "Ferrari Camry",
+    carName: "Toyota Camry",
     imgUrl: img05,
     model: "Model-2022",
     price: 45,
@@ -85,7 +85,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "Our Compact Sedan is a versatile and reliable choice for your everyday driving needs. With its fuel-efficient engine and comfortable interior, this sedan is perfect for city driving or longer road trips. It offers a smooth and easy driving experience, making it ideal for individuals or small families looking for a practical and affordable transportation solution.",
   },
 
   {
@@ -101,7 +101,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "Our Compact Sedan is a versatile and reliable choice for your everyday driving needs. With its fuel-efficient engine and comfortable interior, this sedan is perfect for city driving or longer road trips. It offers a smooth and easy driving experience, making it ideal for individuals or small families looking for a practical and affordable transportation solution.",
   },
 
 ];
