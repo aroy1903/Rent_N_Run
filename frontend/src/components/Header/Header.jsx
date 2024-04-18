@@ -3,6 +3,9 @@
 import { Container, Row, Col } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
 import "../../styles/header.css";
+import { useContext} from "react"
+import {AuthContext} from "../../context/AuthContext.jsx"
+import {signUserOut} from "../../firebase/firebaseActions"
 
 const navLinks = [
   {
@@ -20,6 +23,12 @@ const navLinks = [
 ];
 
 const Header = () => {
+
+ 
+  const {user} = useContext(AuthContext)
+
+
+
   return (
     <header className="header">
       {/* ======header top ======= */}
@@ -37,13 +46,16 @@ const Header = () => {
 
             <Col lg="6" md="6" sm="6">
               <div className="header__top__right d-flex align-items-center justify-content-end gap-3">
-                <Link to="/login" className="d-flex align-items-center gap-1">
+               {!user && <Link to="/login" className="d-flex align-items-center gap-1">
                   <i className="ri-login-circle-line"></i>Login
-                </Link>
+                </Link>}
+                {user && <Link  onClick={()=>signUserOut()} to="/login" className="d-flex align-items-center gap-1">
+                  <i className="ri-logout-circle-line"></i>Logout
+                </Link>}
 
-                <Link to="/register">
+                {!user && <Link to="/register">
                   <i className="ri-user-line"></i>Register
-                </Link>
+                </Link>}
               </div>
             </Col>
           </Row>

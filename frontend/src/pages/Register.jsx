@@ -1,23 +1,24 @@
 import { useState } from "react";
 import "../styles/login.css";
 import signUserUp from "../firebase/firebaseActions";
+import { useNavigate } from 'react-router-dom';
 
-export default function Register({ history }) {
+export default function Register() {
   const [email, setEmail] = useState("");
   const [pass, setPass] = useState("");
   const [username, setUsername] = useState("");
-
+  const history = useNavigate()
   const [error, setError] = useState("");
 
   function userSignUp(e, pass, email, username) {
     e.preventDefault();
-    if (pass !== "" && email !== "") {
+    if (pass !== "" || email !== "") {
       signUserUp(email, pass, username).then((val) => {
         const { result, error } = val;
         if (error) {
           setError(error);
         } else {
-          history.push("/userpage");
+          history("/cars");
         }
       });
     } else {
@@ -36,7 +37,7 @@ export default function Register({ history }) {
         ></input>
         <label>password</label>
         <input
-          type="text"
+          type="password"
           value={pass}
           onChange={(e) => setPass(e.target.value)}
         ></input>

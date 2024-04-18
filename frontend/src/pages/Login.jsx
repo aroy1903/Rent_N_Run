@@ -1,12 +1,15 @@
 import { useState } from "react";
+import { useNavigate } from 'react-router-dom';
+
 import "../styles/login.css";
 import { signUserIn } from "../firebase/firebaseActions";
 
-export default function Login({ history }) {
+export default function Login() {
   const [email, setEmail] = useState("");
   const [pass, setPass] = useState("");
   const [error, setError] = useState("");
-
+  const history = useNavigate()
+ 
   function loginUser(e, pass, email) {
     e.preventDefault();
     if (pass !== "" && email !== "") {
@@ -15,7 +18,7 @@ export default function Login({ history }) {
         if (error) {
           setError(error);
         } else {
-          history.push("/userpage");
+          history("/cars");
         }
       });
     } else {
@@ -34,7 +37,7 @@ export default function Login({ history }) {
         ></input>
         <label>password</label>
         <input
-          type="text"
+          type="password"
           value={pass}
           onChange={(e) => setPass(e.target.value)}
         ></input>

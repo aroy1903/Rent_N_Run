@@ -7,9 +7,9 @@ import {
   signOut,
   updateProfile,
 } from "firebase/auth";
-import app from "./firebaseConfig";
+import {firebaseApp} from "./firebaseConfig";
 
-export const auth = getAuth(firebase_app);
+export const auth = getAuth(firebaseApp);
 
 export default async function signUserUp(
   email,
