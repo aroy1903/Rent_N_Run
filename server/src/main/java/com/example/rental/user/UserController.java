@@ -30,7 +30,7 @@ public class UserController {
 	
 	@PostMapping
 	public void registerNewUser(@RequestBody User user) {
-		userService.addNewUser(user);
+		userService.addUser(user);
 	}
 	
 	@DeleteMapping(path = "{userId}")
